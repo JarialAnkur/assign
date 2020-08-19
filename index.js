@@ -72,7 +72,7 @@ document.getElementById("Antartica").addEventListener("click", () => {
 document.getElementById("search").addEventListener("keyup", () => {
     let query = document.getElementById("search").value.toLowerCase()
     cards.forEach((item) => {
-        if (item.querySelector("h4").textContent.toLowerCase().indexOf(query) > -1) {
+        if (item.querySelector("h4").textContent.toLowerCase().startsWith(query)) {
             item.style.display = "flex"
         } else {
             item.style.display = "none"
