@@ -1,0 +1,64 @@
+.heading {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.btn-light {
+  margin: 1% 3% 1% 3%;
+  border: 2px solid black;
+  padding: 0.8%;
+  text-transform: uppercase;
+}
+body{
+  background-color: honeydew;
+}
+
+.buttons {
+  margin-top: 2%;
+  text-align: center;
+}
+
+.input-group {
+  margin-top: 2%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+
+.container{
+    margin-top: 5%;
+}
+.card-img-top{
+    height: 250px;
+}
+.card{
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.col-4{
+    margin-bottom: 5%;
+    max-width:25%;
+}
+.flag{
+  width: 50px;
+  height: 30px;
+  margin-left: 62%;
+}
+.card-text{
+  display: inline;
+}
+.card-title{
+  margin-top: -10px;
+}
+.card-body{
+  height: 80px;
+  background-color: grey;
+}
+.row{
+  margin-right: -100px;
+  margin-left: -100px;
+}
+.btn-light {
+  margin: 1% 1% 1% 1%;
+}
